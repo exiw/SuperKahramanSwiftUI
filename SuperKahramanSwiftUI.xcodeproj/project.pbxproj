@@ -8,17 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		CD0B52502A94C36100432578 /* SuperKahramanSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD0B524F2A94C36100432578 /* SuperKahramanSwiftUIApp.swift */; };
-		CD0B52522A94C36100432578 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD0B52512A94C36100432578 /* ContentView.swift */; };
+		CD0B52522A94C36100432578 /* ListeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD0B52512A94C36100432578 /* ListeView.swift */; };
 		CD0B52542A94C36100432578 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD0B52532A94C36100432578 /* Assets.xcassets */; };
 		CD0B52572A94C36100432578 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD0B52562A94C36100432578 /* Preview Assets.xcassets */; };
+		CD0B525E2A94C48400432578 /* Superkahraman.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD0B525D2A94C48400432578 /* Superkahraman.swift */; };
+		CD473B542A951D9E0008DF34 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD473B532A951D9E0008DF34 /* MapView.swift */; };
+		CDBBA5EC2A97805E00699CCE /* ListeRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBBA5EB2A97805E00699CCE /* ListeRowView.swift */; };
+		CDBBC8892A9625150064682B /* DetayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBBC8882A9625150064682B /* DetayView.swift */; };
+		CDBBC88B2A9626820064682B /* OzelGorselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBBC88A2A9626820064682B /* OzelGorselView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CD0B524C2A94C36000432578 /* SuperKahramanSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuperKahramanSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD0B524F2A94C36100432578 /* SuperKahramanSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperKahramanSwiftUIApp.swift; sourceTree = "<group>"; };
-		CD0B52512A94C36100432578 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CD0B52512A94C36100432578 /* ListeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListeView.swift; sourceTree = "<group>"; };
 		CD0B52532A94C36100432578 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CD0B52562A94C36100432578 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CD0B525D2A94C48400432578 /* Superkahraman.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Superkahraman.swift; sourceTree = "<group>"; };
+		CD473B532A951D9E0008DF34 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		CDBBA5EB2A97805E00699CCE /* ListeRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListeRowView.swift; sourceTree = "<group>"; };
+		CDBBC8882A9625150064682B /* DetayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetayView.swift; sourceTree = "<group>"; };
+		CDBBC88A2A9626820064682B /* OzelGorselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OzelGorselView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,9 +62,14 @@
 			isa = PBXGroup;
 			children = (
 				CD0B524F2A94C36100432578 /* SuperKahramanSwiftUIApp.swift */,
-				CD0B52512A94C36100432578 /* ContentView.swift */,
+				CD0B52512A94C36100432578 /* ListeView.swift */,
 				CD0B52532A94C36100432578 /* Assets.xcassets */,
 				CD0B52552A94C36100432578 /* Preview Content */,
+				CD0B525D2A94C48400432578 /* Superkahraman.swift */,
+				CD473B532A951D9E0008DF34 /* MapView.swift */,
+				CDBBC8882A9625150064682B /* DetayView.swift */,
+				CDBBC88A2A9626820064682B /* OzelGorselView.swift */,
+				CDBBA5EB2A97805E00699CCE /* ListeRowView.swift */,
 			);
 			path = SuperKahramanSwiftUI;
 			sourceTree = "<group>";
@@ -137,7 +152,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD0B52522A94C36100432578 /* ContentView.swift in Sources */,
+				CDBBC88B2A9626820064682B /* OzelGorselView.swift in Sources */,
+				CDBBC8892A9625150064682B /* DetayView.swift in Sources */,
+				CD0B525E2A94C48400432578 /* Superkahraman.swift in Sources */,
+				CDBBA5EC2A97805E00699CCE /* ListeRowView.swift in Sources */,
+				CD473B542A951D9E0008DF34 /* MapView.swift in Sources */,
+				CD0B52522A94C36100432578 /* ListeView.swift in Sources */,
 				CD0B52502A94C36100432578 /* SuperKahramanSwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

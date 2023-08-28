@@ -9,13 +9,14 @@ import SwiftUI
 
 struct ListeView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        NavigationView{
+            List(superKahramanDizisi){ superKahraman in
+                NavigationLink(destination: DetayView(secilenKahraman: superKahraman),
+                label: {
+                    ListeRowView(superkahraman: superKahraman)
+                })
+            }.navigationTitle(Text("Superkahraman Kitabı"))
         }
-        .padding()
     }
 }
 
